@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+
+<style>
+header {
+  display: flex; /* 开启 Flex 布局 */
+  flex-direction: column; /* 子元素垂直排列（标题在上，导航在下） */
+  align-items: center; /* 子元素水平居中（关键） */
+  gap: 16px; /* 标题和导航之间的间距（可选，优化布局） */
+}
+
+/* 可选：让导航链接横向分布且居中 */
+nav a {
+  margin: 0 12px; /* 链接之间的间距 */
+  text-decoration: none;
+  color: #333;
+}
+</style>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人简历</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    
+
+    <header>
+        <h1>欢迎来到Li Muyang的网站</h1>
+        <nav>
+            <a href="#home">首页</a> | 
+            <a href="#about">关于</a> | 
+            <a href="Flx.html" target="_blank">联系</a>
+        </nav>
+    </header>
+    
+    <main>
+        <section>
+            <h2>介绍</h2>
+            <p>无</p>
+        </section>
+        
+        <section>
+            <h2>图片展示</h2>
+            <img src="D:\bianchengzuopin\html\pri\C1.png" alt="示例图片" width="300" height="183">
+        </section>
+        
+        <section>
+            <h2>表单</h2>
+            <form>
+                <input type="text" placeholder="姓名" required>
+                <br>
+                <input type="email" placeholder="电子邮件" required>
+                <br>
+                <input type="post a message" placeholder="留言内容" required>
+                <br>
+                <button type="submit">提交</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>© 2025 版权所有</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
